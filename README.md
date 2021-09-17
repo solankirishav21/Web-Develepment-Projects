@@ -1,2 +1,2 @@
-# Web-Develepment-Projects
-These projects are made by me while learning
+# GDSC - Web Development Project
+GDSC website(project)
