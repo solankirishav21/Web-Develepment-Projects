@@ -1,7 +1,9 @@
+
 body{
     margin: 0px;
     text-align: center;
     /* background-color: black; */
+    font-family: Arial, Helvetica, sans-serif;
 }
 .navigation{
     background-color: black;
@@ -107,6 +109,8 @@ body{
     background-color: black;
     padding: 2rem;
     color: white;
+    margin: 0%;
+    padding-top: 3rem;
 }
 .insta{
     height: 5rem;
@@ -123,4 +127,44 @@ body{
 .linkedin{
     height: 5rem;
     width: 5rem;
+}
+.yt{
+    height: 5rem;
+    width: 5rem;
+}
+
+.team-pic{
+    width: 13rem;
+    height: 13rem;
+    border-radius: 80%;
+    padding-left: 1rem;
+    /* padding-bottom: 3rem; */
+}
+#cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(13rem,auto));
+    grid-gap: 4rem;
+    padding-left: 4rem;
+   
+
+}
+.project{
+    box-shadow: 0px 0px 8px -2px;
+    padding: 10px;
+    padding-right: 6rem;
+}
+.team-head{
+    text-align: center;
+    padding-left: 4.5rem;
+
+}
+.position{
+    text-align: center;
+    padding-left: 5rem;
+}
+.lower{
+    
+    padding-bottom: 3rem;
+    
+    
 }
